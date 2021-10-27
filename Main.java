@@ -1,9 +1,9 @@
 import model.Pupil;
-import service.PubpilManager;
+import service.PupilManager;
 
 public class Main {
     public static void main(String[] args) {
-       PubpilManager pubpilManager= new PubpilManager();
+       PupilManager pubpilManager= new PupilManager();
        Pupil pupil = new Pupil("Uy", 18 , 1, 7.0 , 6.4 , 8 );
        Pupil pupil1 = new Pupil("Uy", 18 , 2 , 8, 6.4 , 8 );
        Pupil pupil2 = new Pupil("Uy", 18 , 3, 2, 6 , 8 );
@@ -17,5 +17,6 @@ public class Main {
        pubpilManager.print();
        pubpilManager.sort();
        pubpilManager.print();
+       pubpilManager.findPupilGpaMax();
     }
 }

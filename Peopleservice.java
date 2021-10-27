@@ -1,5 +1,7 @@
 package service;
 
+import model.Pupil;
+
 public interface Peopleservice<T> {
     int findIndexByid(int id);
 
